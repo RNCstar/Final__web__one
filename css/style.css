@@ -1,4 +1,4 @@
-@import url(media__querys.css);
+@import url(media__query.css);
 
 @font-face {
   font-family: "diplomat";
@@ -10,4 +10,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "diplomat";
+}
+body{
+  background-color: #1F2235;
+}
+a{
+  color: black ;
+  cursor: pointer;
+  text-decoration: none ;
 }
