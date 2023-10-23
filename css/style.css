@@ -23,7 +23,12 @@ a {
   text-decoration: none;
 }
 nav {
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 600;
+}
+#box__one__nav {
+  border-bottom: 1px solid #434761;
+  padding-bottom: 15px;
 }
 #nav__Desktop .container-fluid {
   display: flex;
@@ -39,7 +44,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
 }
 .mainUl li a {
   color: #fff;
@@ -54,7 +59,7 @@ nav {
   font-weight: 600;
 }
 .resomeh {
-  margin-right: 150px;
+  margin-right: auto;
 }
 #line__list__navbar {
   height: 20px;
@@ -67,7 +72,7 @@ nav {
 }
 .mainUl li::before {
   position: absolute;
-  background-color: #FFC576;
+  background-color: #ffc576;
   content: "";
   height: 2px;
   width: 0;
