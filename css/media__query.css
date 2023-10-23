@@ -1,12 +1,76 @@
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex !important;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #box__one__nav {
+    border-bottom: 1px solid #434761;
+    padding-bottom: 15px;
+  }
+  #nav__Desktop .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+  .img__brand {
+    margin-left: auto;
+  }
+  .list__navbar__desktop .mainUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .mainUl li a {
+    color: #fff;
+  }
+  .resomeh button {
+    background-color: #ffc576;
+    padding: 8px 20px;
+  }
+  .resomeh button a {
+    color: #1f2235;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .resomeh {
+    margin-right: auto;
+  }
+  #line__list__navbar {
+    height: 20px;
+    /* background-color:red ; */
+    border-right: 1px solid #434761;
+  }
+  /* hover before ul | li  */
+  .mainUl li {
+    position: relative;
+  }
+  .mainUl li::before {
+    position: absolute;
+    background-color: #ffc576;
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.4s ease-in-out;
+  }
+  .mainUl li:hover::before {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 1000px) {
-    nav{
-        font-size: 20px !important;
-        
-    }
-    .list__navbar__desktop .mainUl{
-        gap: 20px !important;
-    }
-    .list__navbar__desktop{
-        margin-right: auto;
-    }
+  nav {
+    font-size: 20px !important;
+  }
+  .list__navbar__desktop .mainUl {
+    gap: 20px !important;
+  }
+  .list__navbar__desktop {
+    margin-right: auto;
+  }
 }
